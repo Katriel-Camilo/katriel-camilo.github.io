@@ -1,7 +1,7 @@
 ﻿<template> 
     <div class="btn-container">
         <button :name :class="['btn-wrapper', btnClass]" :style="{ backgroundImage: `url(${src})`}" >
-            <FontAwesomeIcon class="btn-icon" v-if="props.icon" :icon :style="{ '--color': color }"/>
+            <FontAwesomeIcon class="btn-icon" :icon :style="{ '--color': color }"/>
         </button>
         <label>{{ props.label }}</label>
     </div>
