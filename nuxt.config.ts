@@ -8,6 +8,6 @@ export default defineNuxtConfig({
   ],
   ssr: true,
   app: {
-    baseURL: '/katriel-camilo.github.io/',
+    baseURL: '/',
   }
 })
