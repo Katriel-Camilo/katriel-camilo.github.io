@@ -2,7 +2,7 @@
     <header>
       <div class="container header-container">
         <div class="account-container">
-          <UIButton src="media/images/clove.png" class="account-button" />
+          <UIButton src="/media/images/usuario.jpg" class="account-button" />
           <UIButton class="account-button" icon="bell" />
         </div>
         <SearchBar placeholder="Procure seu próximo destino..." />
@@ -144,14 +144,14 @@
         {
           title: 'Igreja Matriz',
           address: 'Pr. da Independência - Centro',
-          imageSrc: 'media/images/matriz.jpg',
+          imageSrc: '/media/images/matriz.jpg',
           alt: 'Imagem da Igreja Matriz',
           href: 'https://yrizer.github.io/Pinhal-Tour/Locais/matriz.html',
         },
         {
           title: 'O Cristo Redentor',
           address: 'Jd. Monte Alegre',
-          imageSrc: 'media/images/cristo.jpg',
+          imageSrc: '/media/images/cristo.jpg',
           alt: 'Imagem do item 2',
         },
       ],
