@@ -5,12 +5,17 @@
 </template>
   
   <script setup>
+  /*
   import { onMounted, ref } from 'vue'
-  import { Html5Qrcode } from 'html5-qrcode'
+  import { Html5Qrcode } from 'html5-qrcode' */
   
+  let Html5Qrcode;
   const qr = ref('')
   
-  onMounted(() => {
+  onMounted(async () => {
+    const module = await import('html5-qrcode')
+    Html5Qrcode = module.Html5Qrcode
+
     const scanner = new Html5Qrcode('reader');
 
     scanner.start(
