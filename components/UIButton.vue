@@ -56,6 +56,7 @@
         background-position: center;
         background-repeat: no-repeat;
         cursor: pointer;
+        overflow: hidden;
     }
 
     .btn-container label {
