@@ -146,7 +146,7 @@
           address: 'Pr. da Independência - Centro',
           imageSrc: '/media/images/matriz.jpg',
           alt: 'Imagem da Igreja Matriz',
-          href: 'https://yrizer.github.io/Pinhal-Tour/Locais/prIndependencia.html',
+          href: 'https://yrizer.github.io/Pinhal-Tour/Locais/matriz.html',
         },
         {
           title: 'O Cristo Redentor',
